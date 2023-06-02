@@ -15,9 +15,24 @@ namespace R5T.Z0045.Raw
     public partial interface IProjectFileReferences : IValuesMarker
     {
         /// <summary>
+        /// R5T.F0020 - Code file operations functionality (CodeFileGenerator).
+        /// </summary>
+        public IProjectFileReference R5T_F0020 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0020\source\R5T.F0020\R5T.F0020.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.F0024.T001 - Solution file model data types.
+        /// </summary>
+        public IProjectFileReference R5T_F0024_T001 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0024\source\R5T.F0024.T001\R5T.F0024.T001.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.F0053 - Code file operations functionality (CodeFileGenerator).
         /// </summary>
         public IProjectFileReference R5T_F0053 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0053\source\R5T.F0053\R5T.F0053.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.F0056 - Project operations functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0056 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0056\source\R5T.F0056\R5T.F0056.csproj".ToProjectFileReference();
 
         /// <summary>
         /// R5T.F0083 - Code file generation with Razor components.
@@ -105,6 +120,16 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_T0180 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0180\source\R5T.T0180\R5T.T0180.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.T0184 - Repository related descriptor strong-types (repository name, repository description, etc.).
+        /// </summary>
+        public IProjectFileReference R5T_T0184 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0184\source\R5T.T0184\R5T.T0184.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0186 - GitHub repository descriptor strong-types (repository name, owner name, etc.).
+        /// </summary>
+        public IProjectFileReference R5T_T0186 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0186\source\R5T.T0186\R5T.T0186.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.T0187 - Visual Studio project and solution descriptor name strong-types (project name, solution name, etc.).
         /// </summary>
         public IProjectFileReference R5T_T0187 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0187\source\R5T.T0187\R5T.T0187.csproj".ToProjectFileReference();
@@ -120,8 +145,28 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_T0194 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0194\source\R5T.T0194\R5T.T0194.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.T0195 - Project file reference type library.
+        /// </summary>
+        public IProjectFileReference R5T_T0195 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0195\source\R5T.T0195\R5T.T0195.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0197 - Library descriptor types library.
+        /// </summary>
+        public IProjectFileReference R5T_T0197 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0197\source\R5T.T0197\R5T.T0197.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.Z0044.Z001 - Visual Studio and .NET development file extensions.
         /// </summary>
         public IProjectFileReference R5T_Z0044_Z001 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0044\source\R5T.Z0044.Z001\R5T.Z0044.Z001.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0045 - Project file references.
+        /// </summary>
+        public IProjectFileReference R5T_Z0045 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0045\source\R5T.Z0045\R5T.Z0045.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0046 - Strongly-typed example values for all purposes.
+        /// </summary>
+        public IProjectFileReference R5T_Z0046 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0046\source\R5T.Z0046\R5T.Z0046.csproj".ToProjectFileReference();
     }
 }
