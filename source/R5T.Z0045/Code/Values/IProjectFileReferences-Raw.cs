@@ -15,6 +15,11 @@ namespace R5T.Z0045.Raw
     public partial interface IProjectFileReferences : IValuesMarker
     {
         /// <summary>
+        /// R5T.F0019 - LibGit2Sharp-related functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0019 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0019\source\R5T.F0019\R5T.F0019.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.F0020 - Code file operations functionality (CodeFileGenerator).
         /// </summary>
         public IProjectFileReference R5T_F0020 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0020\source\R5T.F0020\R5T.F0020.csproj".ToProjectFileReference();
@@ -80,6 +85,11 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_L0033_T000 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.L0033\source\R5T.L0033.T000\R5T.L0033.T000.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.L0034 - The .NET Standard 2.1 foundation library.
+        /// </summary>
+        public IProjectFileReference R5T_L0034 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.L0034\source\R5T.L0034\R5T.L0034.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.L0035 - The .NET 6.0 Foundation Library.
         /// </summary>
         public IProjectFileReference R5T_L0035 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.L0035\source\R5T.L0035\R5T.L0035.csproj".ToProjectFileReference();
@@ -125,9 +135,29 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_L0047 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.L0047\source\R5T.L0047\R5T.L0047.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.NG0019 - Roslyn (Microsoft.CodeAnalysis) NuGet package selector.
+        /// </summary>
+        public IProjectFileReference R5T_NG0019 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.NG0019\source\R5T.NG0019\R5T.NG0019.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.O0007 - Project description operations.
         /// </summary>
         public IProjectFileReference R5T_O0007 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0007\source\R5T.O0007\R5T.O0007.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.O0017 - GitHub repository operations.
+        /// </summary>
+        public IProjectFileReference R5T_O0017 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0017\source\R5T.O0017\R5T.O0017.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.O0026 - Project file path operations library. (umbrella)
+        /// </summary>
+        public IProjectFileReference R5T_O0026 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0026\source\R5T.O0026\R5T.O0026.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.O0026.O002 - Visual Studio-related project path operations.
+        /// </summary>
+        public IProjectFileReference R5T_O0026_O002 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0026\source\R5T.O0026.O002\R5T.O0026.O002.csproj".ToProjectFileReference();
 
         /// <summary>
         /// R5T.T0131 - Marker attribute for constants classes.
@@ -208,6 +238,16 @@ namespace R5T.Z0045.Raw
         /// R5T.T0197 - Library descriptor types library.
         /// </summary>
         public IProjectFileReference R5T_T0197 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0197\source\R5T.T0197\R5T.T0197.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0198 - Repository URL strong-types.
+        /// </summary>
+        public IProjectFileReference R5T_T0198 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0198\source\R5T.T0198\R5T.T0198.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0200 - Local repository directory path strong-types.
+        /// </summary>
+        public IProjectFileReference R5T_T0200 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0200\source\R5T.T0200\R5T.T0200.csproj".ToProjectFileReference();
 
         /// <summary>
         /// R5T.T0201 - HasX interface and class types for solution construction.

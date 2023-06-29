@@ -28,6 +28,9 @@ namespace R5T.Z0045
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0047"/>
         public IProjectFileReference For_LocalRepositoryContext => Raw.R5T_L0047;
 
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0034"/>
+        public IProjectFileReference For_NET_Standard_2_1_FoundationLibrary => Raw.R5T_L0034;
+
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0035"/>
         public IProjectFileReference For_NET_6_FoundationLibrary => Raw.R5T_L0035;
 
@@ -39,6 +42,9 @@ namespace R5T.Z0045
 
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0042"/>
         public IProjectFileReference For_RepositoryContext => Raw.R5T_L0042;
+
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_NG0019"/>
+        public IProjectFileReference For_RoslynNuGetPackageSelector => Raw.R5T_NG0019;
 
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0187"/>
         public IProjectFileReference For_SolutionName => Raw.R5T_T0187;
