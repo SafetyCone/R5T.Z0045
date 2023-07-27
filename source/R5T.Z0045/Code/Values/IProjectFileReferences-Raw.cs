@@ -70,6 +70,11 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_F0134 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0134\source\R5T.F0134\R5T.F0134.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.F0138 - Dotnet framework core assembly packs related path functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0138 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0138\source\R5T.F0138\R5T.F0138.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.L0031 - Context operations library.
         /// </summary>
         public IProjectFileReference R5T_L0031 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.L0031\source\R5T.L0031\R5T.L0031.csproj".ToProjectFileReference();
@@ -145,6 +150,11 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_O0007 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0007\source\R5T.O0007\R5T.O0007.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.O0016 - Repository operations (combined local and remote).
+        /// </summary>
+        public IProjectFileReference R5T_O0016 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0016\source\R5T.O0016\R5T.O0016.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.O0017 - GitHub repository operations.
         /// </summary>
         public IProjectFileReference R5T_O0017 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0017\source\R5T.O0017\R5T.O0017.csproj".ToProjectFileReference();
@@ -160,7 +170,7 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_O0026_O002 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0026\source\R5T.O0026.O002\R5T.O0026.O002.csproj".ToProjectFileReference();
 
         /// <summary>
-        /// R5T.T0131 - Marker attribute for constants classes.
+        /// R5T.T0131 - Marker attribute for value instances.
         /// </summary>
         public IProjectFileReference R5T_T0131 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0131\source\R5T.T0131\R5T.T0131.csproj".ToProjectFileReference();
 
@@ -265,6 +275,31 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_T0207 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0207\source\R5T.T0207\R5T.T0207.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.T0212.F000 - Project documentation file operator functionalities.
+        /// </summary>
+        public IProjectFileReference R5T_T0212_F000 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0212\source\R5T.T0212.F000\R5T.T0212.F000.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0215.Z000 - .NET pack name values.
+        /// </summary>
+        public IProjectFileReference R5T_T0215_Z000 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0215\source\R5T.T0215.Z000\R5T.T0215.Z000.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0222 - Organization related strong-types (like organization name).
+        /// </summary>
+        public IProjectFileReference R5T_T0222 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0222\source\R5T.T0222\R5T.T0222.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0015 - Useful output directory and file paths.
+        /// </summary>
+        public IProjectFileReference R5T_Z0015 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0015\source\R5T.Z0015\R5T.Z0015.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0043 - GitHub repository owner names.
+        /// </summary>
+        public IProjectFileReference R5T_Z0043 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0043\source\R5T.Z0043\R5T.Z0043.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.Z0044.Z001 - Visual Studio and .NET development file extensions.
         /// </summary>
         public IProjectFileReference R5T_Z0044_Z001 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0044\source\R5T.Z0044.Z001\R5T.Z0044.Z001.csproj".ToProjectFileReference();
@@ -278,5 +313,10 @@ namespace R5T.Z0045.Raw
         /// R5T.Z0046 - Strongly-typed example values for all purposes.
         /// </summary>
         public IProjectFileReference R5T_Z0046 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0046\source\R5T.Z0046\R5T.Z0046.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0057 - .NET target framework moniker values.
+        /// </summary>
+        public IProjectFileReference R5T_Z0057 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0057\source\R5T.Z0057\R5T.Z0057.csproj".ToProjectFileReference();
     }
 }

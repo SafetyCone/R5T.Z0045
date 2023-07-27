@@ -43,6 +43,9 @@ namespace R5T.Z0045
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0042"/>
         public IProjectFileReference For_RepositoryContext => Raw.R5T_L0042;
 
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0184"/>
+        public IProjectFileReference For_RepositoryNameStrongType => Raw.R5T_T0184;
+
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_NG0019"/>
         public IProjectFileReference For_RoslynNuGetPackageSelector => Raw.R5T_NG0019;
 
