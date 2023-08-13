@@ -16,10 +16,10 @@ namespace R5T.Z0045
         private static Raw.IProjectFileReferences Raw => Z0045.Raw.ProjectFileReferences.Instance;
 
 
-        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0038"/>/>
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0038"/>
         public IProjectFileReference For_ApplicationContext => Raw.R5T_L0038;
 
-        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0142"/>/>
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0142"/>
         public IProjectFileReference For_DataTypes => Raw.R5T_T0142;
 
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0180"/>
@@ -33,6 +33,9 @@ namespace R5T.Z0045
 
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0035"/>
         public IProjectFileReference For_NET_6_FoundationLibrary => Raw.R5T_L0035;
+
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_F0033"/>
+        public IProjectFileReference For_NotepadPlusPlus => Raw.R5T_F0033;
 
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0204"/>
         public IProjectFileReference For_ProjectSpecification => Raw.R5T_T0204;
@@ -49,10 +52,19 @@ namespace R5T.Z0045
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_NG0019"/>
         public IProjectFileReference For_RoslynNuGetPackageSelector => Raw.R5T_NG0019;
 
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_Z0039"/>
+        public IProjectFileReference For_CloudAndSharedPaths => Raw.R5T_Z0039;
+
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0187"/>
         public IProjectFileReference For_SolutionName => Raw.R5T_T0187;
 
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0207"/>
         public IProjectFileReference For_SolutionSpecifications => Raw.R5T_T0207;
+
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_T0159_F000"/>
+        public IProjectFileReference For_TextOutputConsole => Raw.R5T_T0159_F000;
+
+        /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_F0034"/>
+        public IProjectFileReference For_WindowsExplorer => Raw.R5T_F0034;
     }
 }

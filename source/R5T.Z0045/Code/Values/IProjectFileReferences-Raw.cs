@@ -25,6 +25,16 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_F0020 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0020\source\R5T.F0020\R5T.F0020.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.F0033 - Notepad++ functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0033 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0033\source\R5T.F0033\R5T.F0033.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.F0034 - Windows Explorer functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0034 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0034\source\R5T.F0034\R5T.F0034.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.F0024.T001 - Solution file model data types.
         /// </summary>
         public IProjectFileReference R5T_F0024_T001 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0024\source\R5T.F0024.T001\R5T.F0024.T001.csproj".ToProjectFileReference();
@@ -40,9 +50,19 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_F0056 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0056\source\R5T.F0056\R5T.F0056.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.F0082 - Code file system survey functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0082 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0082\source\R5T.F0082\R5T.F0082.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.F0083 - Code file generation with Razor components.
         /// </summary>
         public IProjectFileReference R5T_F0083 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0083\source\R5T.F0083\R5T.F0083.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.F0115 - Project file tuples functionality.
+        /// </summary>
+        public IProjectFileReference R5T_F0115 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0115\source\R5T.F0115\R5T.F0115.csproj".ToProjectFileReference();
 
         /// <summary>
         /// R5T.F0129 - Solution and project paths operator (strongly-typed).
@@ -170,6 +190,21 @@ namespace R5T.Z0045.Raw
         public IProjectFileReference R5T_O0026_O002 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.O0026\source\R5T.O0026.O002\R5T.O0026.O002.csproj".ToProjectFileReference();
 
         /// <summary>
+        /// R5T.R0009 - Common, unopinionated, basic Razor components.
+        /// </summary>
+        public IProjectFileReference R5T_R0009 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.R0009\source\R5T.R0009\R5T.R0009.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.R0010 - Common, opinionated, basic Razor components.
+        /// </summary>
+        public IProjectFileReference R5T_R0010 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.R0010\source\R5T.R0010\R5T.R0010.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.R0011 - Conventional Tailwind CSS access strategy components.
+        /// </summary>
+        public IProjectFileReference R5T_R0011 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.R0011\source\R5T.R0011\R5T.R0011.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.T0131 - Marker attribute for value instances.
         /// </summary>
         public IProjectFileReference R5T_T0131 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0131\source\R5T.T0131\R5T.T0131.csproj".ToProjectFileReference();
@@ -193,6 +228,11 @@ namespace R5T.Z0045.Raw
         /// R5T.T0159 - TextOutput type definition.
         /// </summary>
         public IProjectFileReference R5T_T0159 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0159\source\R5T.T0159\R5T.T0159.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.T0159.F000 - 
+        /// </summary>
+        public IProjectFileReference R5T_T0159_F000 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.T0159\source\R5T.T0159.F000\R5T.T0159.F000.csproj".ToProjectFileReference();
 
         /// <summary>
         /// R5T.T0161 - Strongly-typed code element name types. (Type name, method name, etc.)
@@ -293,6 +333,16 @@ namespace R5T.Z0045.Raw
         /// R5T.Z0015 - Useful output directory and file paths.
         /// </summary>
         public IProjectFileReference R5T_Z0015 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0015\source\R5T.Z0015\R5T.Z0015.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0022 - Code file system survey directory paths.
+        /// </summary>
+        public IProjectFileReference R5T_Z0022 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0022.Private\source\R5T.Z0022\R5T.Z0022.csproj".ToProjectFileReference();
+
+        /// <summary>
+        /// R5T.Z0039 - Rivet shared data file paths.
+        /// </summary>
+        public IProjectFileReference R5T_Z0039 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Z0039.Private\source\R5T.Z0039\R5T.Z0039.csproj".ToProjectFileReference();
 
         /// <summary>
         /// R5T.Z0043 - GitHub repository owner names.
