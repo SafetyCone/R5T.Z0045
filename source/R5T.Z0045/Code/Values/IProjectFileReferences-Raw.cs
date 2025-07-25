@@ -15,6 +15,11 @@ namespace R5T.Z0045.Raw
     public partial interface IProjectFileReferences : IValuesMarker
     {
         /// <summary>
+        /// F10Y_L0000 - The .NET Standard 2.1 foundation library.
+        /// </summary>
+        public IProjectFileReference F10Y_L0000 => @"C:\Code\DEV\Git\GitHub\Functionairy\F10Y.L0000\source\F10Y.L0000\F10Y.L0000.csproj".ToProjectFileReference();
+
+        /// <summary>
         /// R5T.F0019 - LibGit2Sharp-related functionality.
         /// </summary>
         public IProjectFileReference R5T_F0019 => @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.F0019\source\R5T.F0019\R5T.F0019.csproj".ToProjectFileReference();

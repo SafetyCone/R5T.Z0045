@@ -31,6 +31,9 @@ namespace R5T.Z0045
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0034"/>
         public IProjectFileReference For_NET_Standard_2_1_FoundationLibrary => Raw.R5T_L0034;
 
+        /// <inheritdoc cref="Raw.IProjectFileReferences.F10Y_L0000"/>
+        public IProjectFileReference For_NET_Standard_2_1_Library => Raw.F10Y_L0000;
+
         /// <inheritdoc cref="Raw.IProjectFileReferences.R5T_L0035"/>
         public IProjectFileReference For_NET_6_FoundationLibrary => Raw.R5T_L0035;
 
